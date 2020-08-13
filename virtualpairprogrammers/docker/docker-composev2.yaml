@@ -22,4 +22,4 @@ services:
          - MYSQL_DATABASE=fleetman
 
 networks:
-   fleetmanv-networkv2:
+   fleetman-networkv2:
