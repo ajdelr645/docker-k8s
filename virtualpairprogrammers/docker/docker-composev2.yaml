@@ -16,7 +16,7 @@ services:
    database:
       image: mysql:5
       networks:
-         - fleetman-network
+         - fleetman-network2
       environment:
          - MYSQL_ROOT_PASSWORD=password
          - MYSQL_DATABASE=fleetman
